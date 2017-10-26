@@ -33,10 +33,10 @@ npm start
 
 ### Watch
 
-*  with the below command:
+* Watch changes with the below command:
 
 ```
-npm start
+npm run watch
 ```
 
 ## License
