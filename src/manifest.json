@@ -1,0 +1,21 @@
+{
+  "name": "Minimal Web Boilerplate",
+  "short_name": "Minimal",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A minimal web application.",
+  "icons": [{
+    "src": "images/icons/homescreen48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "images/icons/homescreen72.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "images/icons/homescreen96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }]
+}
