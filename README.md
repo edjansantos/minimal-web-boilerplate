@@ -1,32 +1,44 @@
-# minimal-web-boilerplate
+# Minimal Web Boilerplate
 A minimal and simple boilerplate for web projects. Using Bulma and Sass, building with Gulp.
 
 ## Setup
 
-1. Garanta que você possui node e npm [node e npm](https://nodejs.org/en/download/) instalados:
+1. Make sure you have node and npm [node e npm] installed (https://nodejs.org/en/download/):
 
 ```sh
 node -v && npm -v
 ```
 
-2. Instale as dependências globais:
+2. Install the global dependencies:
 
 ```sh
 npm i gulp -g
 ```
 
-3. Instale as dependências locais:
+3. Install the local dependencies:
 
 ```sh
 npm i
 ```
 
-## Uso
+## Use
 
-### rodar
+### Run
 
-* Rode com o comando abaixo:
+* Run with the below command:
 
 ```
 npm start
 ```
+
+### Watch
+
+*  with the below command:
+
+```
+npm start
+```
+
+## License
+
+The code is available under the [MIT license].
