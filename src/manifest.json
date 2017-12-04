@@ -4,7 +4,7 @@
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
-  "description": "A minimal web application.",
+  "description": "A minimalist web application.",
   "icons": [{
     "src": "images/icons/homescreen48.png",
     "sizes": "48x48",

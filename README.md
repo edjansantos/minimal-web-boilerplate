@@ -1,5 +1,5 @@
 # Minimal Web Boilerplate
-A minimal and simple boilerplate for web projects. Using Bootstrap 4 and Sass, building with Gulp.
+A minimalistic and simple boilerplate for web projects. Using Bootstrap 4 and Sass, built with Gulp.
 
 ## Setup
 
