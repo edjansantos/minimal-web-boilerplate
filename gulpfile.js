@@ -94,7 +94,8 @@ gulp.task('copy-fonts', function () {
 gulp.task('copy-html', function () {
     return gulp
         .src(['src/**/*.html', 'src/**/*.htm'])
-        .pipe(gulp.dest(distPath));
+        .pipe(gulp.dest(distPath))
+        .pipe(browserSync.reload({ stream: true }));
 });
 
 // Copy image files
@@ -163,7 +164,7 @@ gulp.task('build-sass', function () {
 gulp.task('watch', function () {
     gulp.watch(['src/**/*.js'], ['build-js']);
     gulp.watch(['src/assets/styles/**/*.css', 'src/assets/styles/**/*.scss'], ['build-sass']);
-    gulp.watch(['src/**/*.html'], ['copy-html', 'build-template-cache']);
+    gulp.watch(['src/**/*.html'], ['copy-html']);
     gulp.watch("src/**/*.html").on('change', browserSync.reload);
     gulp.watch("src/**/*.js").on('change', browserSync.reload);
     gulp.watch("src/**/*.css").on('change', browserSync.reload);
